@@ -1,0 +1,11 @@
+<h1>There are..... {{cout}}..... words</h1>
+
+<h1> in your text-------------></h1>
+{{text}}
+<h1> this appears as</h1>
+{% for word,counttotal in worddict %}
+{{word}}--{{counttotal}}
+<br/>   
+
+
+{% endfor %}
